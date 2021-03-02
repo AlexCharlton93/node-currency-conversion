@@ -1,0 +1,20 @@
+{
+  "name": "node-currency-conversion",
+  "version": "1.0.0",
+  "description": "A CLI tool to generate a CSV file with the past 5 days currency conversion rates",
+  "main": "src/index.js",
+  "bin": "bin/node-currency-conversion",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Charlton",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-writer": "^1.6.0",
+    "esm": "^3.2.25",
+    "moment": "^2.29.1"
+  }
+}
